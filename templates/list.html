@@ -1,0 +1,10 @@
+<table>
+{% for item in object_list %}
+    <tr>
+    <td>{{ item.title }}</td>
+    <td>{{ item.content }}</td>
+    <td>{{ item.postdate }}</td>
+    <td>{{ item.category }}</td>
+    </tr>
+{% endfor %}
+</table>
